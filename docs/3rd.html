@@ -1,0 +1,7 @@
+<!DOTYPE html><script>"use strict";
+try{if(parent!==window){
+	localStorage.setItem(location.hash,"-");
+	localStorage.removeItem(location.hash);
+	parent.postMessage(1,"*");
+}}catch(e){ parent.postMessage(0,"*"); }
+</script>
