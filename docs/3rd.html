@@ -1,6 +1,6 @@
 <!DOTYPE html><script>"use strict";{
-try{if(parent!==window){
+const p=parent;try{if(p!==window){
 	localStorage;
-	parent.postMessage(1,"*");
-}}catch(e){ parent.postMessage(0,"*"); }
+	p.postMessage(1,"*");
+}}catch(e){ p.postMessage(0,"*"); }
 }</script>
